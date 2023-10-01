@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/************header************/
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    background-color: rgb(215, 22, 202);
+    width: 100%;
+}
+
+h1 {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.color {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.good {
+    background-color: green;
+    border-radius: 10px;
+    width: 25%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.bad {
+    background-color: red;
+    border-radius: 10px;
+    width: 25%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+/********************************DIV QUESTION****************/
+
+
+/********************************checkbox à cocher********************************/
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/****************bouton valider***********/
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.btn {
+    font-size: 40px;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(20, 20, 158);
+    color: red;
+}
+
+/*********************SCORE***************/
+h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.score {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgb(255, 196, 0);
+    width: 50px;
+    height: 50px;
+}
+
+/********************************footer********************************/
+footer {
+    width: 100%;
+    height: 5em;
+}

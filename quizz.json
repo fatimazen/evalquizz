@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "question": "Quel est le rapport entre Java et JavaScript ? ",
+        "propositions": [
+            "C'est le même langage, mais le nom  JavaScript  est utilisé pour le code s'exécutant dans une page Web.",
+            "Ce sont deux langages différents, malgré quelques points communs dans la syntaxe.",
+            "Java est une version améliorée de JavaScript. ",
+            "Java est une île, ça n'a rien à voir ! "
+        ],
+        "reponse": "Ce sont deux langages différents, malgré quelques points communs dans la syntaxe.",
+        "anecdote": "Le nom  JavaScript  a été choisi en raison des similitudes de syntaxe, et aussi (surtout ?) parce que le nom  Java  était à la mode."
+    },
+    {
+        "id": 2,
+        "question": "Laquelle de ces syntaxes est correcte ? ",
+        "propositions": [
+            "if (a != 2) {} (correct) ",
+            "if a != 2 {} ",
+            "if (a <> 2) {} ",
+            "if a <> 2 {} "
+        ],
+        "reponse": "if (a != 2) {} (correct) ",
+        "anecdote": "La condition d'un if doit toujours être entourée de parenthèses. L'opérateur  ''différent de '' s'écrit != en JavaScript."
+    },
+    {
+        "id": 3,
+        "question": "Quel attribut des noeuds de l'arbre DOM correspond à l'attribut HTML class ? ",
+        "propositions": [
+            "class",
+            "CLASS",
+            "className ",
+            "listClass "
+        ],
+        "reponse": "className ",
+        "anecdote": "Il n'a pas été possible d'utiliser class dans le DOM car c'est un mot-clé réservé pour les futures versions de la spécification ECMAScript."
+    },
+    {
+        "id": 4,
+        "question": "Dans un fichier JavaScript externe (.js), il faut : ",
+        "propositions": [
+            "entourer le code avec les balises <script> et </script>. ",
+            "préciser l’encodage du fichier avec la règle @charset. ",
+            "échapper les caractères spéciaux (X)HTML. ",
+            "Aucune des réponses précédentes."
+        ],
+        "reponse": "Aucune des réponses précédentes.",
+        "anecdote": ""
+    },
+    {
+        "id": 5,
+        "question": "Lequel de ces types d'événements n'existe pas ? ",
+        "propositions": [
+            "blur",
+            "load",
+            "mouseclick ",
+            "mouseout "
+        ],
+        "reponse": "mouseclick ",
+        "anecdote": "Il faut utiliser click, qui a d'ailleurs l'avantage de se déclencher aussi avec l'activation par le clavier."
+    },
+    {
+        "id": 6,
+        "question": "Quelle méthode n'existe pas dans le DOM ? ",
+        "propositions": [
+            "document.getElementsByClassName ",
+            "document.getElementsByTagName ",
+            "document.getElementsByAttribute ",
+            "document.getElementById "
+        ],
+        "reponse": "document.getElementsByAttribute ",
+        "anecdote": "On peut rechercher les éléments par classe, id, nom de balise (tag). "
+    },
+    {
+        "id": 7,
+        "question": "Laquelle de ces propositions est un nom de variable valide en JavaScript ? ",
+        "propositions": [
+            "var",
+            "default",
+            "NaN ",
+            "$b"
+        ],
+        "reponse": "$b",
+        "anecdote": "var est un mot-clé ; 2a n'est pas valide car un identifiant ne peut pas commencer par un chiffre  int est un mot-clé réservé pour les futures versions de la spécification ECMAScript. "
+    },
+    {
+        "id": 8,
+        "question": "Dans une boucle, l'instruction continue permet de : ",
+        "propositions": [
+            "continuer l'exécution du code après la boucle. ",
+            "passer à l'itération suivante. (correct) ",
+            "revenir au début de l'itération courante. ",
+            "supprimer toutes les variables globales."
+        ],
+        "reponse": "passer à l'itération suivante. (correct) ",
+        "anecdote": "Il est à noter que cette instruction peut être associée à un label, comme expliqué dans la documentation de Mozilla. "
+    },
+    {
+        "id": 9,
+        "question": "var iNum = 12; iNum %= 2; A la suite de cette expression, combien vaut iNum ? ",
+        "propositions": [
+            "6",
+            "14",
+            "0.12",
+            "0"
+        ],
+        "reponse": "0",
+        "anecdote": "Le modulo suivi de l'affectation divise la variable iNum par 2 puis affecte le reste de la division à iNum, soit zéro. "
+    },
+    {
+        "id": 10,
+        "question": "Quelle méthode permet de comparer deux chaînes texte ? ",
+        "propositions": [
+            "charAt() ",
+            "charCodeAt() ",
+            "indexOf() ",
+            "localeCompare()"
+        ],
+        "reponse": "localeCompare()",
+        "anecdote": "La bonne réponse est localeCompare(). "
+    },
+    {
+        "id": 11,
+        "question": "Quelle propriété permet de rogner une image ? ",
+        "propositions": [
+            "image-fit ",
+            "crop",
+            "object-fit ",
+            "zoom"
+        ],
+        "reponse": "object-fit ",
+        "anecdote": ""
+    },
+    {
+        "id": 12,
+        "question": "Quelle est la valeur minimum nécessaire pour qu'une transition fonctionne ? ",
+        "propositions": [
+            "le nom de la transition ",
+            "la durée de la transition",
+            "l’accélération de la transition ",
+            "la propriété à transiter "
+        ],
+        "reponse": "la durée de la transition",
+        "anecdote": ""
+    },
+    {
+        "id": 13,
+        "question": "Parmi ces propriétés, laquelle permet, sur les navigateurs qui la supportent, d'appliquer une largeur de 100% - 50px à l'élément concerné ? ",
+        "propositions": [
+            "width: auto - 50px; ",
+            "width: 100%- 50px; ",
+            "width: calc(100%- 50px);",
+            "width: #captain.flam;"
+        ],
+        "reponse": "width: calc(100%- 50px);",
+        "anecdote": ""
+    },
+    {
+        "id": 14,
+        "question": "Comment cibler les 4 premiers éléments d'une liste ? ",
+        "propositions": [
+            "li:nth-child(4n) ",
+            "li:nth-child(-n+4)",
+            "li:nth-child(4-n)",
+            "li:nth-child(substr(4)) "
+        ],
+        "reponse": "li:nth-child(-n+4)",
+        "anecdote": ""
+    },
+    {
+        "id": 15,
+        "question": "Que signifie HTML ? ",
+        "propositions": [
+            "HomeTabulation of Mailing List ",
+            "HyperText Markup Language ",
+            "Hyperspace TradeMark Language ",
+            "XpTdr Mdr Lol "
+        ],
+        "reponse": "HyperText Markup Language ",
+        "anecdote": ""
+    },
+    {
+        "id": 16,
+        "question": "À quoi sert HTML ? ",
+        "propositions": [
+            "À mettre en forme des pages web ",
+            "À structurer du contenu dans une page web ",
+            "À créer des pages dynamiques ",
+            "À concurrencer Google et Facebook "
+        ],
+        "reponse": "À structurer du contenu dans une page web ",
+        "anecdote": "HTML est le langage de balisage conçu pour représenter les pages web. Son rôle principal est de structurer les données et donner du sens aux éléments. "
+    },
+    {
+        "id": 17,
+        "question": "En quelle année est né HTML ? ",
+        "propositions": [
+            "Dans les années 70, avec Arpanet ",
+            "Entre 1986 et 1988, avec le Club Dorothée ",
+            "Plutôt en 1993 non ? Sous le mandat Bill Clinton ",
+            "En 1990 exactement, avec la naissance d'Emma Watson "
+        ],
+        "reponse": "Plutôt en 1993 non ? Sous le mandat Bill Clinton ",
+        "anecdote": "La première proposition de spécification HTML date de 1993, par Tim Berners-Lee, considéré comme l'inventeur du Web. "
+    },
+    {
+        "id": 18,
+        "question": "Qu'est ce qu'un navigateur web ? ",
+        "propositions": [
+            "Un logiciel capable d'interpréter et d'afficher du code HTML ",
+            "Un outil permettant d'accéder à Internet ",
+            "Un réseau social global ",
+            "La toute première application mondiale "
+        ],
+        "reponse": "Un logiciel capable d'interpréter et d'afficher du code HTML ",
+        "anecdote": "Un navigateur web n'est rien d'autre qu'une application (web ou native) capable de lire et afficher du code HTML, CSS et JavaScript sur un écran. "
+    },
+    {
+        "id": 19,
+        "question": "Comment représenter un paragraphe en HTML ? ",
+        "propositions": [
+            "<ul> ",
+            "<li> ",
+            "<p>",
+            "<paragraph> "
+        ],
+        "reponse": "<p>",
+        "anecdote": ""
+    },
+    {
+        "id": 20,
+        "question": "Comment représenter une liste en HTML ? ",
+        "propositions": [
+            "<ul>",
+            "<li> ",
+            "<h1> ",
+            "<list>"
+        ],
+        "reponse": "<ul>",
+        "anecdote": "<ul> est le conteneur de liste, <li> sont les éléments (items) de la liste. "
+    },
+    {
+        "id": 21,
+        "question": "Trouvez l'intrus dans cette liste ",
+        "propositions": [
+            "<ul> ",
+            "<a> ",
+            "<div> ",
+            "<img> "
+        ],
+        "reponse": "<img> ",
+        "anecdote": "<img> est une balise auto-fermante (il n'y a pas de </img>) "
+    },
+    {
+        "id": 22,
+        "question": "Citez un attribut HTML lié aux images ",
+        "propositions": [
+            "src ",
+            "img",
+            "data",
+            "href"
+        ],
+        "reponse": "src ",
+        "anecdote": "src (pour source) permet à la balise <img> de faire le lien vers le chemin de l'image. "
+    },
+    {
+        "id": 23,
+        "question": "Comment charger une feuille de style uniquement pour une fenêtre au format paysage ? ",
+        "propositions": [
+            "<link rel=''stylesheet'' size=''landscape'' href='styles.css'> ",
+            "<link rel=''stylesheet'' media=''screen'' size='landscape' href='styles.css'> ",
+            "<link rel='stylesheet'media='landscape' href='styles.css'> ",
+            "<link rel='stylesheet' media='(orientation : landscape)'' href='styles.css'> "
+        ],
+        "reponse": "<link rel='stylesheet' media='(orientation : landscape)'' href='styles.css'> ",
+        "anecdote": ""
+    },
+    {
+        "id": 24,
+        "question": "Comment cibler tous les liens de la page sauf ceux qui contiennent la chaîne 'alsacreations' ? ",
+        "propositions": [
+            "a:not([href*='alsacreations'])",
+            "a[href!='alsacreations'] ",
+            "a![href*='alsacreations'] ",
+            "a![href$='alsacreations'] "
+        ],
+        "reponse": "a:not([href*='alsacreations'])",
+        "anecdote": ""
+    },
+    {
+        "id": 25,
+        "question": "Où se placera un élément positionné en absolu (position: absolute) avec left: 100px ? ",
+        "propositions": [
+            "À 100px du bord gauche de la fenêtre du navigateur; ",
+            "À 100px du bord gauche de l'élément html; ",
+            "À 100px du bord gauche de son élément parent; ",
+            "À 100px du bord gauche de son plus proche ancêtre positionné."
+        ],
+        "reponse": "À 100px du bord gauche de son plus proche ancêtre positionné.",
+        "anecdote": ""
+    }
+  ]
